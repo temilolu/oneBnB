@@ -4,8 +4,8 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <link href="css/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     </head>
     <body>
 
@@ -32,12 +32,39 @@
 
             <section class="container">
                 <div class="row">
-                    <div class="col-md-7">
-                            <div class="search"></div>
-                            <div class="row">   
+                    <div class="col-md-7 header-top">
+                                
+                            <div class="row">  
+                                <div class="col-md-12">
+                                        <div class="search">
+                                                <form class="row" method="get">
+                                                   <div class=" search--slot col-md-3">
+                                                       <label for="Where"><i class="fa fa-map-marker" aria-hidden="true"></i> Where</label><br>
+                                                       <input type="text" placeholder="Place" />
+                                                   </div>
+                
+                                                   <div class="search--slot col-md-3">
+                                                        <label for="when"><i class="fa fa-calendar" aria-hidden="true"></i> When</label><br>
+                                                        <input type="text" placeholder="Set Date" />
+                                                    </div>
+                
+                                                    <div class="search--slot col-md-3">
+                                                        <label for="Guest"><i class="fa fa-user" aria-hidden="true"></i> Guest</label><br>
+                                                        <input type="text" placeholder="Guest" />
+                                                    </div>
+                
+                                                    <div class="search--btn col-md-3">
+                                                        <button type="submit" class="button--large button--orange">Search</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                </div> 
                                 <div class="col-md-6">
                                     <div class="box">
-                                        
+                                        <img src="" alt="img">
+                                        <h3>$60</h3>
+                                        <p>Studio 52 apartment</p>
+                                        <span>Entire apartment</span>
                                     </div>
                                 </div>
         
@@ -58,22 +85,42 @@
                                             
                                         </div>
                                     </div>
+
+                                    <div class="col-md-6">
+                                            <div class="box">
+                                                
+                                            </div>
+                                        </div>
+                
+                                        <div class="col-md-6">
+                                                <div class="box">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                                <div class="box">
+                                                    
+                                                </div>
+                                            </div>
+                    
+                                            <div class="col-md-6">
+                                                    <div class="box">
+                                                    
+                                                </div>
+                                            </div>
                     
                             </div>
                     </div>
 
                     <div class="col-md-5">
-                          <div class="map">
+                          <div class="map-canvas">
                               
                           </div>  
                     </div>
                 </div>
             </section>
         </main>
-
-        <footer>
-            
-        </footer>
     
     </body>
 </html>

@@ -3,7 +3,9 @@ header {
     border-bottom: 1px solid #DBDBDB;
     min-height: 80px;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
+    position: fixed;
+    z-index: 1000;
 
    img{
        height: 50px;
@@ -12,4 +14,8 @@ header {
     a{
         color: $white; 
     }
+}
+
+.header-top{
+    padding-top: 100px !important;
 }

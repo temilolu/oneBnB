@@ -476,8 +476,30 @@ main#site-wrapper {
   border-radius: 3px;
   border: 1px solid #DBDBDB;
   background-color: white;
-  min-height: 8em;
-  padding: 15px; }
+  min-height: 5em;
+  padding: 0px 0 0 10px;
+  color: #041725;
+  margin-top: 2em; }
+  .search input {
+    border: none;
+    width: 100%;
+    height: 2em; }
+  .search--slot {
+    border-right: 1px solid #e4e4e4 !important;
+    height: 5em;
+    padding-top: 10px; }
+  .search--btn {
+    padding-top: 15px; }
+
+.map-canvas {
+  position: fixed !important;
+  top: 80px !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  width: 40% !important;
+  background-color: #828282;
+  height: 100%;
+  min-height: 50em; }
 
 .--side {
   width: 5%;
@@ -551,11 +573,16 @@ header {
   border-bottom: 1px solid #DBDBDB;
   min-height: 80px;
   width: 100%;
-  padding-top: 2em; }
+  padding-top: 1em;
+  position: fixed;
+  z-index: 1000; }
   header img {
     height: 50px; }
   header a {
     color: #ffffff; }
+
+.header-top {
+  padding-top: 100px !important; }
 
 button,
 .button {
@@ -650,23 +677,23 @@ button,
     padding-right: 2em; }
 
 footer {
-  margin-top: 10em;
+  margin-top: 5em;
   padding: 50px;
-  background-color: #fafafa;
+  background-color: #fcfdfe;
   border-top: 1px solid #eee;
   min-height: 200px;
-  color: #ffffff; }
+  color: #3bb75e; }
 
 .banner {
   background: radial-gradient(farthest-corner at 60px 60px, #8CE071 0%, #00a699 70%) !important;
   min-height: 500px;
   padding: 0 50px;
   color: #ffffff;
-  padding-top: 14em; }
+  padding-top: 3em; }
   .banner h1 {
-    font-size: 6em; }
+    font-size: 4em; }
   .banner h3 {
-    font-size: 3em; }
+    font-size: 1.5em; }
 
 .layout {
   list-style: none;
@@ -679,26 +706,6 @@ footer {
 
 .z-20 {
   z-index: 20; }
-
-.layout__item {
-  display: inline-block;
-  padding-left: 24px;
-  vertical-align: top;
-  width: 100%; }
-
-.top-pattern, .top-background {
-  height: 500px;
-  overflow: hidden; }
-
-.top-pattern {
-  background-image: url("/pattern.jpeg");
-  background-size: cover; }
-
-.one-sixth, .two-twelfths {
-  width: 16.666% !important; }
-
-.five-sixths, .ten-twelfths {
-  width: 83.333% !important; }
 
 .profile {
   padding: 30px;
@@ -719,7 +726,7 @@ footer {
   color: #ffffff; }
 
 .box {
-  height: 300px;
+  height: 200px;
   background: #fcfdfe;
   border-color: rgba(0, 39, 69, 0.11);
   border-radius: 5px;

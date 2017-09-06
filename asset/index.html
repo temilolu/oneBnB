@@ -4,8 +4,8 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <link href="css/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     </head>
     <body>
 
@@ -30,16 +30,35 @@
 
         <main>
             <!-- Banner -->
-            <section class="banner">
+            <section class="banner" >
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-9 header-top">
                             <h1>OneBnB</h1>
 
                             <h3>Book unique Africa homes and experience it cities like a local</h3>
 
                             <div class="search">
-                                
+                                <form class="row" method="get">
+                                   <div class=" search--slot col-md-3">
+                                       <label for="Where"><i class="fa fa-map-marker" aria-hidden="true"></i> Where</label><br>
+                                       <input type="text" placeholder="Place" />
+                                   </div>
+
+                                   <div class="search--slot col-md-3">
+                                        <label for="when"><i class="fa fa-calendar" aria-hidden="true"></i> When</label><br>
+                                        <input type="text" placeholder="Set Date" />
+                                    </div>
+
+                                    <div class="search--slot col-md-3">
+                                        <label for="Guest"><i class="fa fa-user" aria-hidden="true"></i> Guest</label><br>
+                                        <input type="text" placeholder="Guest" />
+                                    </div>
+
+                                    <div class="search--btn col-md-3">
+                                        <button type="submit" class="button--large button--orange">Search</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -50,45 +69,49 @@
             <!-- Cities -->
              <section class="cities">
                 <div class="container">
-                    <h3>Top Cities</h3>
+                    <h3>Choose from these top cities</h3>
 
                     <div class="row">
 
+                        <div class="col-md-12">
+                            
+                        </div>
+
                         <div class="col-md-4">
                             <div class="box">
-                                
+                                <h3>Lagos</h3>
                             </div>
                         </div>
 
                         <div class="col-md-4">
-                                <div class="box">
-                                
+                             <div class="box">
+                                <h3>Johannesburg</h3>
                             </div>
                         </div>
 
                             <div class="col-md-4">
                                 <div class="box">
-                                    
+                                    <h3>Nairobi</h3>
                                 </div>
                             </div>
 
                             <div class="col-md-4">
                                     <div class="box">
-                                        
+                                       <h3>Accra</h3>
                                     </div>
                                 </div>
         
                                 <div class="col-md-4">
-                                        <div class="box">
-                                        
+                                     <div class="box">
+                                         <h3>Cairo</h3>
                                     </div>
                                 </div>
         
-                                    <div class="col-md-4">
-                                        <div class="box">
-                                            
-                                        </div>
+                                <div class="col-md-4">
+                                    <div class="box">
+                                         <h3>Burban</h3>
                                     </div>
+                                </div>
                     </div>
                 </div>
             </section>
@@ -96,7 +119,19 @@
         </main>
 
         <footer>
-            
+                <div class="container">
+                        <div class="row"> 
+                        <div class="col-md-6">
+                            <h4>Made by</h4>
+                            <h2>Temitayo Ogunlolu</h2>
+        
+                            <p>I love open source and this is my way of contributing to the open source community in Africa. Lisence MIT </p>
+                            <p>©2017 Temitayo.me</p>
+                        </div>
+        
+                        <div class="col-md-6"> </div>
+                    </div>
+                    </div>    
         </footer>
     
     </body>

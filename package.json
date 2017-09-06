@@ -1,0 +1,12 @@
+{
+    "name": "oneBnB",
+    "version": "1.0.0",
+    "description": "Open source portfolio web app built in reactjs, redux, jest, sass, nodejs, hapijs. Feel free to contribute",
+    "main": "index.js",
+    "scripts": {},
+    "devDependencies": {
+        "eslint-config-prettier": "^2.4.0",
+        "eslint-plugin-prettier": "^2.2.0",
+        "prettier": "^1.6.1"
+    }
+}

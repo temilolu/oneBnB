@@ -1,12 +1,21 @@
 {
     "name": "oneBnB",
     "version": "1.0.0",
-    "description": "Open source portfolio web app built in reactjs, redux, jest, sass, nodejs, hapijs. Feel free to contribute",
+    "description": "Open source portfolio web app built in reactjs, redux, jest, sass. Feel free to contribute",
     "main": "index.js",
-    "scripts": {},
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
     "devDependencies": {
         "eslint-config-prettier": "^2.4.0",
         "eslint-plugin-prettier": "^2.2.0",
-        "prettier": "^1.6.1"
+        "prettier": "^1.6.1",
+        "firebase": "^4.3.1",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-scripts": "1.0.13"
     }
 }

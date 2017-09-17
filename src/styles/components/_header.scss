@@ -1,0 +1,21 @@
+header {
+    background: inherit;
+    border-bottom: 1px solid #DBDBDB;
+    min-height: 80px;
+    width: 100%;
+    padding-top: 1em;
+    position: fixed;
+    z-index: 1000;
+
+   img{
+       height: 50px;
+   }
+
+    a{
+        color: $white; 
+    }
+}
+
+.header-top{
+    padding-top: 100px !important;
+}

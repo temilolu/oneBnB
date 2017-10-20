@@ -2,7 +2,7 @@
 
 
 # ignore an entire directory
-/src/styles/
+src/styles/
 
 # ignore a file type
 

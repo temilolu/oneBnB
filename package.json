@@ -1,0 +1,24 @@
+{
+    "name": "onebnb",
+    "version": "1.0.0",
+    "description": "AirBnB cloning for learning purposes.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/temilolu/oneBnB.git"
+    },
+    "author": "Temitayo Ogunlolu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/temilolu/oneBnB/issues"
+    },
+    "homepage": "https://github.com/temilolu/oneBnB#readme",
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-bootstrap": "^0.32.1",
+        "react-redux": "^5.0.6"
+    }
+}

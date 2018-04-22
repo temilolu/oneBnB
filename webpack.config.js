@@ -32,7 +32,7 @@ const config = {
 			// JSX
 			{
 				test: /\.jsx$/,
-				loaders: ['babel-loader'],
+				loaders: 'babel-loader',
 				exclude: /node_modules/,
 			},
 		],

@@ -4,9 +4,12 @@
     "description": "An open-source project focus on recreating a small portion Airbnb for learning purpose using reactjs/redux",
     "main": "index.js",
     "scripts": {
+        "lint": "eslint **/*.{js,jsx} --quiet",
         "test": "jest",
-        "start": "webpack -p",
-        "build": "webpack"
+        "start": "webpack",
+        "watch": "webpack --watch",
+        "build": "webpack -p",
+        "build:dev": "webpack -d"
     },
     "repository": {
         "type": "git",
@@ -54,7 +57,7 @@
         "babel-preset-env": "^1.5.1",
         "babel-preset-react": "^6.24.1",
         "enzyme": "^2.8.2",
-        "eslint": "^3.19.0",
+        "eslint": "^4.19.1",
         "eslint-config-airbnb": "^15.0.1",
         "eslint-config-prettier": "^2.1.1",
         "eslint-config-react": "^1.1.7",

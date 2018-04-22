@@ -1,6 +1,9 @@
 import React from 'react';
-import { render } from 'react-dom';
 
-const Header = () => {
-    <div></div>
-}
+const Header = () => (
+    <div>
+        <h1>Header</h1>
+    </div>
+);
+
+export default Header;

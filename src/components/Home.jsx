@@ -7,25 +7,33 @@ const Home = () => (
     <div>
         <Header />
 
+        <div className="banner m-b-25">
+            <div className="container p-t-75 p-l-75">
 
-        <div className="banner">
-            <h1>OneBnB img</h1>
-            <h2>Book Unique homes around the world</h2>
-            <Search />
-        </div>
-
-
-        <div className="Listings">
-            <h3>Explore OneBnB Homes</h3>
-            <List />
+                <h2>Book Unique homes in key locations around the world</h2>
+                <Search />
+            </div>
 
         </div>
 
-        <div className="Host">
-            <h3>Become a Host and earn more</h3>
-            <p>Turn your extra spacing into a source of pride</p>
+        <main className="container">
+            <div className="listings m-b-25">
+                <h3>Explore OneBnB Homes</h3>
+                <List />
 
-        </div>
+            </div>
+
+            <div className="host m-b-25">
+                <h3>Become a Host and earn more</h3>
+                <p>Turn your extra spacing into a source of pride</p>
+
+            </div>
+
+
+        </main>
+
+
+
     </div>
 );
 

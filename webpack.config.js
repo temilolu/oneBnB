@@ -21,6 +21,9 @@ const config = {
 		reasons: true,
 		chunks: true,
 	},
+	mode: 'development',
+	plugins: [
+		new webpack.LoaderOptionsPlugin({ options: {} })],
 	module: {
 		rules: [
 			{

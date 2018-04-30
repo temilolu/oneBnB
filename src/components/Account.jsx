@@ -1,16 +1,31 @@
 import React from 'react';
+import Header from './Header';
 
 const Account = () => (
-    <section>
-        <div className='row'>
-            <div className='col-4'>
-                <img src='' alt='avatar' />
-                <h2>User name</h2>
-                <h3>Location</h3>
-                <h4>Contact</h4>
-            </div>
+    <div>
 
-            <div className='col-8'></div>
-        </div>
-    </section>
+        <Header />
+
+        <main className="container">
+            <div className="row">
+                <div className="m-t-70" />
+                <div className="col-4">
+                    <img src={'https://a0.muscache.com/im/pictures/user/8ff54849-a8e9-412d-a965-00e4ba9bbc48.jpg?aki_policy=profile_x_medium'} alt={'avatar'} />
+                    <button className="button__green">List your Home</button>
+                </div>
+
+                <div className="col-8">
+                    <div>
+                        <h1>{'Hey, Im Temitayo Ogunlolu'}</h1>
+                        <span>Location</span>
+                    </div>
+
+                    {/* History */}
+                    <div />
+                </div>
+            </div>
+        </main>
+    </div>
 );
+
+export default Account;

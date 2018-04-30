@@ -1,7 +1,8 @@
 header{
-    background: #fff;
+    background: $white;
     height: 80px;
-    color: #50E3C2;
+    color:$pink;
+    border-bottom: 1px solid $light_grey;
 
     img{
         height: 2em;

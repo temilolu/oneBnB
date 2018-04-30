@@ -1,17 +1,15 @@
 import React from 'react';
 
 const List = () => (
-    <div className="row">
-        <div className="col-4">
-            <div className="list m-b-25">
-                <img src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1520548537000/photosp/5d1b7022-b7ae-45ea-ad89-5789190db594/stock-photo-photography-orange-italy-box-pomegranate-fluffy-photo-5d1b7022-b7ae-45ea-ad89-5789190db594.jpg" alt="home pic" />
-                <h4>Location</h4>
-                <h3>Home Name/title </h3>
-                <span>Pricing</span>
-            </div>
-
+    <div className="list m-b-25">
+        <img src={"https://images.pexels.com/photos/909620/pexels-photo-909620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"} alt={"home pic"} />
+        <div className="p-t-15 p-b-15 p-l-15 p-r-15">
+            <span className="">Location</span>
+            <h3>
+                ENTIRE HOUSE · OSTUNI
+                    I SETTE CONI - TRULLO EDERA</h3>
+            <span className="">Pricing</span>
         </div>
-
     </div>
 
 );

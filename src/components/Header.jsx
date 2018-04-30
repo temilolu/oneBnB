@@ -8,7 +8,7 @@ const Header = () => (
 
                 { /* logo */}
                 <div className="col-4">
-                    <img src={"http://res.cloudinary.com/djh2j7sra/image/upload/v1524614797/1BnB._wfqvqi.svg"} alt={"logo"} className="m-t-25" />
+                    <img src={"http://res.cloudinary.com/djh2j7sra/image/upload/v1524149967/OneBnB/1BnB..svg"} alt={"logo"} className="m-t-25" />
                 </div>
 
                 { /* Nav link */}

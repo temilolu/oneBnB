@@ -1,11 +1,42 @@
 .banner{
     width: 100%;
     min-height: 30em;
-    background-color: #aaa;
+    background-color: $white;
     background-image: url(https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?cs=srgb&dl=apartment-architecture-carpet-584399.jpg&fm=jpg);
     background-size: cover;
     background-position: center center;
     
+    color: $white;
+
+    &__overlay{
+        background: $overlay;
+        width: 100%;
+        height: 100%;
+        padding-top:5em;
+        min-height: 30em;
+    }
+    
+}
+
+.search{
+    background-color: $white !important;
+    border-radius: 4px !important;
+    padding: 0.8em;
+    border: 1px solid $light_grey;
+    
+
+    input{
+        min-height: 2.5em;
+        width: 80%;
+        border: 0px;
+    }
+
+    &__has__svg{
+
+        img{
+            width: 35px;
+        }
+    }
 }
 
 .listing{
@@ -13,6 +44,13 @@
 }
 
 .host{
-    background: #aeaeae;
+    background:  $grey;
     min-height: 15em;
+    padding: 3rem;
+    background-image: url(https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?cs=srgb&dl=apartment-architecture-ceiling-259962.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-top:5em;
+    color: $white;
+    
 }

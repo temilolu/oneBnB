@@ -17963,11 +17963,15 @@ var Home = function Home() {
                 'div',
                 { className: 'container p-t-75 p-l-75' },
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    'h2',
-                    null,
-                    'Book Unique homes in key locations around the world'
-                ),
-                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Search__WEBPACK_IMPORTED_MODULE_2__["default"], null)
+                    'div',
+                    { className: 'col-8' },
+                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                        'h1',
+                        null,
+                        'Book Unique homes in key locations around the world'
+                    ),
+                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Search__WEBPACK_IMPORTED_MODULE_2__["default"], null)
+                )
             )
         ),
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
@@ -17989,12 +17993,17 @@ var Home = function Home() {
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                     'h3',
                     null,
-                    'Become a Host and earn more'
+                    'Find out how much you could earn hosting your place'
                 ),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                     'p',
                     null,
                     'Turn your extra spacing into a source of pride'
+                ),
+                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                    'button',
+                    { className: 'button__green' },
+                    'Find out more'
                 )
             )
         )
@@ -18028,21 +18037,25 @@ var List = function List() {
             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                 "div",
                 { className: "list m-b-25" },
-                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1520548537000/photosp/5d1b7022-b7ae-45ea-ad89-5789190db594/stock-photo-photography-orange-italy-box-pomegranate-fluffy-photo-5d1b7022-b7ae-45ea-ad89-5789190db594.jpg", alt: "home pic" }),
+                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "https://images.pexels.com/photos/909620/pexels-photo-909620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", alt: "home pic" }),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    "h4",
-                    null,
-                    "Location"
-                ),
-                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    "h3",
-                    null,
-                    "Home Name/title "
-                ),
-                react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    "span",
-                    null,
-                    "Pricing"
+                    "div",
+                    { className: "p-t-15 p-b-15 p-l-15 p-r-15" },
+                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                        "span",
+                        { className: "" },
+                        "Location"
+                    ),
+                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                        "h3",
+                        null,
+                        "ENTIRE HOUSE \xB7 OSTUNI I SETTE CONI - TRULLO EDERA"
+                    ),
+                    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+                        "span",
+                        { className: "" },
+                        "Pricing"
+                    )
                 )
             )
         )
@@ -18068,13 +18081,12 @@ __webpack_require__.r(__webpack_exports__);
 
 var Search = function Search() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "div",
-        null,
+        "form",
+        { className: "search" },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", { type: "text", placeholder: "Search here" }),
-        " ",
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
             "button",
-            null,
+            { className: "button__green button__large" },
             "Search"
         )
     );

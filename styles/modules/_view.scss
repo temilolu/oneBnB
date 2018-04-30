@@ -1,0 +1,17 @@
+.view{
+
+    &__pictures{
+        height: 20em;
+        background-color: $grey;
+    }
+
+    &__content{
+       
+    }
+
+    &__checkout{ 
+      border: 1px solid $grey;
+      min-height: 10em; 
+      padding: 1em;
+    }
+}

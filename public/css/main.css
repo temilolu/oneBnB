@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700");
 .m-t-5 {
   margin-top: 5px; }
 
@@ -470,5 +471,15 @@ button,
   border: 1px solid #484848;
   min-height: 10em;
   padding: 1em; }
+
+body {
+  font-family: 'Hind Siliguri', sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */

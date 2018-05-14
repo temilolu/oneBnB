@@ -12,7 +12,9 @@ const Header = () => (
                 </div>
 
                 { /* Nav link */}
-                <div className="col-8" />
+                <div className="col-8">
+                    <button className="m-t-20">Login with Github</button>
+                </div>
             </div>
 
         </div>

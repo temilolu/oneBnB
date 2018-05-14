@@ -1,0 +1,155 @@
+{
+    "home": [
+        {
+            "id": 0,
+            "name": "The Joshua Tree House",
+            "location": [
+                "city",
+                "state",
+                "country"
+            ],
+            "pricing": 100.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642486/pexels-photo-1860772_lyprrp.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Stunning All Bamboo House on Pristine Valley edge",
+            "location": "Sabo, Lagos",
+            "pricing": 95.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642484/20_i8e9xt.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Unique Cob Cottage",
+            "location": "Sabo, Lagos",
+            "pricing": 89.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642486/19_kchlrp.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Secluded Intown Treehouse",
+            "location": "Sabo, Lagos",
+            "pricing": 73.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642486/pexels-photo-1860772_lyprrp.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Malibu Dream Airstream",
+            "location": "Sabo, Lagos",
+            "pricing": 38.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642484/20_i8e9xt.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Stunning All Bamboo House on Pristine Valley edge",
+            "location": "Sabo, Lagos",
+            "pricing": 103.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642484/17_olemet.jpg"
+        },
+        {
+            "id": 6,
+            "name": "The Lake Tahoe Chalet",
+            "location": "Sabo, Lagos",
+            "pricing": 300.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642483/16_xvnu59.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Lussuoso. Vista incantevole.",
+            "location": "Sabo, Lagos",
+            "pricing": 100.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642483/14_lugkjj.jpg"
+        },
+        {
+            "id": 8,
+            "name": "SDouble Room in El vaixell de paper",
+            "location": "Sabo, Lagos",
+            "pricing": 983.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642483/15_fnaeil.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Unique Architecture Cave House",
+            "location": "Sabo, Lagos",
+            "pricing": 312.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642482/13_swdj59.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Cozy A-Frame Cabin in the Redwoods",
+            "location": "Sabo, Lagos",
+            "pricing": 83.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642482/11_a3v3ap.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Exceptional property private beach",
+            "location": "Sabo, Lagos",
+            "pricing": 36.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642481/10_zhhp0m.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Leccio Apartment - Cimbolello",
+            "location": "Sabo, Lagos",
+            "pricing": 45.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642481/8_jblsz7.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Sade lounge",
+            "location": "Miamo - Amazing view in Imerovigli",
+            "pricing": 55.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642481/9_mem0us.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Best location design quiet AC free wifi citycenter",
+            "location": "Sabo, Lagos",
+            "pricing": 59.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642481/6_gad11n.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Loft Studio in the Central Area",
+            "location": "Sabo, Lagos",
+            "pricing": 43.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642481/3_tsstzo.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Sydney City & Harbour at the door",
+            "location": "Sabo, Lagos",
+            "pricing": 56.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642480/1_wpqg8m.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Romantic, Lakeside Home with Views of Lake Como",
+            "location": "Sabo, Lagos",
+            "pricing": 12.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642480/5_iwhiwg.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Sade lounge",
+            "location": "Sabo, Lagos",
+            "pricing": 37.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642480/4_frt1k9.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Off-grid itHouse",
+            "location": "Sabo, Lagos",
+            "pricing": 39.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525642480/7_vlprl1.jpg"
+        },
+        {
+            "id": 20,
+            "name": "The Cozy Palace",
+            "location": "Sabo, Lagos",
+            "pricing": 60.99,
+            "image": "http://res.cloudinary.com/djh2j7sra/image/upload/v1525644812/pexels-photo-189333_ld7a4y.jpg"
+        }
+    ]
+}
